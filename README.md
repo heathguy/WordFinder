@@ -1,2 +1,3 @@
 # WordFinder
-Find words within words
+
+GUI Python program to find words within words.
