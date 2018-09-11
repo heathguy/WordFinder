@@ -10,11 +10,10 @@ import itertools
 f = open('OWL3_Dictionary.txt', 'r')
 dictList = f.read().splitlines()
 
-
 class Words:
 	def __init__(self,master):
 		self.master = master 
-		master.title("Word Cookies")
+		master.title("Word Finder")
 
 		letterCheck = master.register(self.CheckLetterEntry)
 		wordLenCheck = master.register(self.CheckWordLenEntry)
